@@ -1,0 +1,72 @@
+@import "./fonts.css";
+@import "./header.css";
+@import "./media.css";
+@import "./reset.css";
+@import "./hero.css";
+@import "./about.css";
+@import "./why-logos.css";
+@import "./format-lerns.css";
+@import "./questions.css";
+@import "./zabota.css";
+@import "./going-lerns.css";
+@import "./our-teachers.css";
+@import "./result.css";
+@import "./map.css";
+@import "./footer.css";
+.container {
+  width: 100%;
+  max-width: 1310px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.about__content-static-item-p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: #fff;
+  max-width: 260px;
+}
+.about__content-static-item-p::before {
+  content: attr(data-span);
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 160%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.primary-button {
+  border-radius: 60px 40px 60px 20px;
+  position: relative;
+  background: linear-gradient(49deg, #9311ff 0%, #bd1cff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  padding: 0px 31px;
+  height: 73px;
+  box-shadow: 0px 4px 15px 0px #f499ff;
+}
+.primary-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background: linear-gradient(226deg, #fede17 0%, #d5930b 100%);
+  border-radius: 60px 40px 60px 20px;
+  z-index: 0;
+  transition: 0.5s;
+}
+.primary-button:hover {
+  box-shadow: none;
+}
+.primary-button:hover::before {
+  opacity: 1;
+}
+.primary-button-link {
+  z-index: 2;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 458%;
+  color: #fff;
+}

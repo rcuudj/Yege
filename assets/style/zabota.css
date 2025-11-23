@@ -1,0 +1,122 @@
+.zabota {
+  background: url(../img/zabota-bg.png);
+  min-height: 1268px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 139px;
+  padding-bottom: 110px;
+  margin-bottom: 140px;
+}
+.zabota__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.zabota__content h2 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 83%;
+  text-align: center;
+  color: #fff;
+  max-width: 889px;
+}
+.zabota__content p {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 83%;
+  text-align: center;
+  color: #fff;
+}
+.zabota__content-queestons {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  align-self: self-start;
+  gap: 30px;
+}
+.zabota__content-queestons-item {
+  display: flex;
+  /* width: 630px; */
+  gap: 35px;
+}
+.zabota__content-queestons-item .left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.zabota__content-queestons-item
+  .left
+  .zabota__content-queestons-item-icon:nth-of-type(2) {
+  margin-top: 118px;
+}
+.zabota__content-queestons-item .right {
+  display: flex;
+  flex-direction: column;
+  width: 541px;
+  text-align: left;
+  margin-top: 8px;
+  height: 610px;
+  justify-content: space-between;
+}
+.zabota__content-queestons-item p {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 143%;
+  color: #fff;
+  text-align: left;
+}
+.zabota__content-queestons-item p:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+.zabota__content-queestons-item p .text-small-weight {
+  font-weight: 500;
+}
+.zabota__content-queestons-item p .name {
+  font-weight: 400;
+  display: block;
+}
+.zabota__content-queestons-item-icon {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 150%;
+  background: linear-gradient(49deg, #9311ff 0%, #bd1cff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.zabota__content-queestons-item-button {
+  align-self: center;
+  margin-top: 27px;
+  padding: 0px 31px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  position: relative;
+  border-radius: 40px 20px 40px 20px;
+  background: linear-gradient(49deg, #9311ff 0%, #bd1cff 100%);
+}
+.zabota__content-queestons-item-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background: linear-gradient(226deg, #fede17 0%, #d5930b 100%);
+  border-radius: 40px 20px 40px 20px;
+  transition: 0.5s;
+}
+.zabota__content-queestons-item-button:hover:before {
+  opacity: 1;
+}
+
+.zabota__content-queestons-item-button a {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 367%;
+  color: #fff;
+  z-index: 2;
+}

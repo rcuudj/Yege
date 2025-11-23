@@ -1,0 +1,20 @@
+.footer .nav__content {
+  padding: 28px 0 27px;
+  border-top: 1px solid #dee6eb;
+}
+.footer .nav__content-links-menu {
+  color: #494949;
+  font-weight: 900;
+  font-size: 24px;
+}
+.footer .nav__content-links-menu:hover {
+  color: #fff;
+}
+.footer .nav__content-tel a {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: right;
+  color: #494949;
+}

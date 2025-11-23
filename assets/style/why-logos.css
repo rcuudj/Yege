@@ -1,0 +1,99 @@
+.why-logos {
+  padding-top: 89px;
+  position: relative;
+  margin-bottom: -8px;
+}
+.why-logos__content-eclipse {
+  position: absolute;
+  left: 0;
+  top: 140px;
+}
+.why-logos-circle {
+  position: absolute;
+  top: 572px;
+  z-index: -1;
+  left: -66px;
+}
+.why-logos__content h2 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  text-align: center;
+  background: linear-gradient(49deg, #29c034 0%, #a2c029 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.why-logos__content-info {
+  margin-top: 39px;
+  display: flex;
+  gap: 58px;
+}
+.why-logos__content-info-left {
+  display: flex;
+  flex-direction: column;
+  width: 268px;
+  gap: 40px;
+}
+.why-logos__content-info-left p {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 143%;
+  color: #494949;
+  display: flex;
+  flex-direction: column;
+}
+.why-logos__content-info-left p::before {
+  content: attr(data-check);
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 150%;
+  display: block;
+  background: linear-gradient(49deg, #9311ff 0%, #bd1cff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.why-logos__content-info-center {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 20px;
+}
+.why-logos__content-info-center-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 45px;
+  position: relative;
+  max-width: 384px;
+  gap: 12px;
+}
+.why-logos__content-info-center-item p {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 125%;
+  background: linear-gradient(49deg, #29c034 0%, #a2c029 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.why-logos__content-info-center-item p::before {
+  content: url(../icons/checked.svg);
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+.why-logos__content-info-center-item span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #494949;
+}
+.why-logos__content-info-center-item:not(:nth-of-type(1)) span {
+  max-width: 295px;
+}
+.why-logos__content-info-right {
+  position: absolute;
+  right: 66px;
+  z-index: -1;
+}

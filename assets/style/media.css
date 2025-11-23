@@ -1,0 +1,82 @@
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .nav {
+    padding: 27px 20px;
+  }
+  .nav__content {
+    gap: 20px;
+    justify-content: start;
+  }
+  .nav__content .logo {
+    max-width: 167px;
+    max-height: 50px;
+  }
+  .nav__content .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .nav__content-links {
+    display: none;
+  }
+  .nav__content-links .ipad {
+    display: none;
+  }
+  .nav__content-options-sale {
+    font-size: 18px;
+    width: 228px;
+    height: 52px;
+    padding: 6px 18px 6px 23px;
+    line-height: 117%;
+  }
+  .nav__content-options {
+    gap: 34px;
+  }
+  .nav__content-options-tel {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+  .nav__content-menu {
+    display: block;
+    width: 29px;
+    height: 21px;
+  }
+  .hero__content-right {
+    display: none;
+  }
+  .hero__content-right.ipad {
+    /* display: block; */
+  }
+  .hero__content {
+    padding: 64px 20px 0;
+  }
+  .hero__content-left h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 133%;
+    width: 100%;
+    text-align: center;
+  }
+  .hero__content-box {
+    flex-wrap: wrap;
+    gap: 19px;
+  }
+  .hero__content-box-item {
+    width: 172px;
+    height: 157px;
+  }
+  .hero__content-box-item p {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+  }
+}
+@media (max-width: 598px) {
+}

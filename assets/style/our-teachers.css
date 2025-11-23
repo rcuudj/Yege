@@ -1,0 +1,233 @@
+.our-teachers {
+  background: url(../img/our-teachers-bg.png);
+  min-height: 2137px;
+  margin-top: 28px;
+  padding-top: 171px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 134px;
+}
+.our-teachers__content h2 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 83%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 109px;
+}
+.our-teachers__content-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.our-teachers-left {
+  gap: 74px;
+  display: flex;
+  align-items: center;
+}
+.our-teachers-left-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.our-teachers-left-cards-item {
+  overflow: hidden;
+  width: 97px;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25% 5% 25% 5%;
+}
+.our-teachers-left-active-teacher {
+  border: 4px solid #fff;
+  width: 534px;
+  height: 743px;
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+  border-radius: 5% 10px 5% 10px;
+  position: relative;
+}
+.our-teachers-left-active-teacher-option {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 16px;
+  transform: translateY(-50%);
+}
+.our-teachers-left-active-teacher-option .click {
+  cursor: pointer;
+}
+.our-teachers-right {
+  width: 517px;
+  height: 762px;
+  overflow: hidden;
+}
+.our-teachers-right-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.our-teachers-right-name h4 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 111%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.our-teachers-right-name h4 span {
+  font-size: 30px;
+  display: block;
+  text-transform: capitalize;
+}
+.our-teachers-right-name button {
+  background: linear-gradient(49deg, #9311ff 0%, #bd1cff 100%);
+  padding: 8px 20px 8px 10px;
+  width: 120px;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  border-radius: 50px 20px 50px 20px;
+  font-family: "PT-Root-UI";
+}
+.our-teachers-right-achievements {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.our-teachers-right-achievments-card h6 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 143%;
+  color: #fff;
+  margin-bottom: 22px;
+}
+.our-teachers-right-achievments-card-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  column-gap: 15px;
+}
+.our-teachers-right-achievements-item {
+  background: #fff;
+  border-radius: 30px 10px;
+  /* height: 131px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 23px 14px 17px;
+}
+.our-teachers-right-achievements-item p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #494949;
+  gap: 10px;
+}
+.our-teachers-right-achievements-item p span {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.our-teachers-right-achievements-item p::before {
+  content: attr(data-stage);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50%;
+  text-align: center;
+  color: #494949;
+}
+.our-teachers-right-achievments-card:nth-of-type(2)
+  .our-teachers-right-achievments-card-box {
+  grid-template-rows: 202px;
+}
+.our-teachers-right-achievments-card:nth-of-type(2)
+  .our-teachers-right-achievments-card-box
+  .our-teachers-right-achievements-item:nth-of-type(odd) {
+  justify-content: start;
+}
+.our-teachers-right-achievments-card:nth-of-type(2)
+  .our-teachers-right-achievments-card-box
+  .our-teachers-right-achievements-item
+  p {
+  font-weight: 700;
+  line-height: 112%;
+}
+.our-teachers-right-achievments-card:nth-of-type(2)
+  .our-teachers-right-achievments-card-box
+  .our-teachers-right-achievements-item
+  p
+  span {
+  line-height: 100%;
+  font-weight: 500;
+}
+.our-teachers-right-achievments-card:nth-of-type(2)
+  .our-teachers-right-achievments-card-box
+  .our-teachers-right-achievements-item:nth-of-type(1)
+  p {
+  width: 120px;
+}
+.our-teachers-right-achievments-card:nth-of-type(3)
+  .our-teachers-right-achievments-card-box {
+  grid-template-columns: repeat(2, 1fr);
+}
+.our-teachers-right-achievments-card:nth-of-type(3)
+  .our-teachers-right-achievments-card-box
+  .our-teachers-right-achievements-item
+  p {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.our-teachers-right-achievments-card:nth-of-type(3)
+  .our-teachers-right-achievments-card-box
+  .our-teachers-right-achievements-item
+  p::before {
+  content: attr(data-chetchik);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50%;
+  text-align: center;
+}
+.our-teachers__content-bottom h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 112%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 49px;
+}
+.our-teachers__content-bottom-university {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 109px);
+  gap: 20px;
+}
+.our-teachers__content-bottom-university-item {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px 10px;
+  overflow: hidden;
+}

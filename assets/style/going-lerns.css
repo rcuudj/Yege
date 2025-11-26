@@ -132,3 +132,22 @@
   stroke: #f8f8f8;
   z-index: -1;
 }
+.going-lerns__content-item-info p#ipad-going-info,
+.going-lerns__content-item-info .primary-button.ipad,
+.going-lerns__content-item:nth-of-type(2) h4.h4-ipad-going,
+.going-lerns__content-item-info p.p-ipad-going,
+.going-lerns__content-item span.span-ipad-going,
+.going-lerns__content-banner-info p.p-ipad-going,
+.going-lerns__content-item-info h4.h4-ipad-going,
+.going-lerns__content-banner-info .primary-button.ipad,
+.going-lerns__content-banner-info .primary-button.ipad-watsap {
+  display: none;
+}
+.going-lerns__content-item-info p#desktop-going-info,
+.going-lerns__content-item:nth-of-type(2) h4.h4-desktop-going,
+.going-lerns__content-item:nth-of-type(2) p.p-desktop-going {
+  display: block;
+}
+.going-lerns__content-item-info .primary-button.desktop {
+  display: flex;
+}

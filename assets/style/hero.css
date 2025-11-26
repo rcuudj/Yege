@@ -30,6 +30,10 @@
   flex-direction: column;
   height: auto;
 }
+.hero__content-box-ipad,
+.hero__content-info.ipad {
+  display: none;
+}
 .hero__content-box-item .icon {
   display: flex;
   align-items: center;

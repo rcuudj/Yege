@@ -94,6 +94,25 @@
 }
 .why-logos__content-info-right {
   position: absolute;
-  right: 66px;
+  right: 60px;
   z-index: -1;
+}
+.why-logos__content-info-center-item:nth-of-type(3) span:nth-of-type(2) {
+  display: none;
+}
+.why-logos__content-info-center-item:nth-of-type(3) span:nth-of-type(1) {
+  display: block;
+}
+.why-logos__content-info-left.ipad,
+.why-logos__content-info-right img#desktop-bg {
+  display: block;
+}
+.why-logos__content-info-right img#ipad-bg {
+  display: none;
+}
+.why-logos__content-info-left.ipad {
+  display: none;
+}
+.why-logos__content-info-center-item span#ipad-info-span-center {
+  display: none;
 }

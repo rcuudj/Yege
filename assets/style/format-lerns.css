@@ -19,9 +19,6 @@
 }
 .format-lerns__content-cards {
   display: grid;
-  grid-template-areas:
-    "card1 card2 box"
-    "card3 card4";
   grid-template-columns: 411px 411px 1fr;
   grid-template-rows: 327px 409px;
   gap: 20px;
@@ -156,7 +153,7 @@
   margin-top: 84px;
   margin-bottom: 36px;
 }
-.box label {
+.box .format-lerns__content-cards-item-option label {
   padding: 22px 28px 22px 35px;
   border: 1px solid #fff;
   height: 73px;
@@ -174,7 +171,10 @@
   cursor: pointer;
   position: relative;
 }
-.dropdown {
+.format-lerns__content-cards-item-option {
+  width: 100%;
+}
+.format-lerns__content-cards-item-option .dropdown {
   overflow: hidden;
   max-height: 0;
   transition: 0.4s ease;
@@ -184,7 +184,7 @@
   z-index: 1;
   margin-bottom: 36px;
 }
-.dropdown li {
+.format-lerns__content-cards-item-option .dropdown li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -196,16 +196,18 @@
   padding: 22px 28px 22px 35px;
   border-radius: 40px 20px 40px 20px;
 }
-.dropdown li:hover {
+.format-lerns__content-cards-item-option .dropdown li:hover {
   background: #30235f;
 }
-.dropdown li a {
+.format-lerns__content-cards-item-option .dropdown li a {
   font-weight: 400;
   font-size: 21px;
   line-height: 143%;
   color: #fff;
 }
-.box .format-lerns__content-cards-item-next {
+.box
+  .format-lerns__content-cards-item-option
+  .format-lerns__content-cards-item-next {
   width: 100%;
   height: 73px;
   display: flex;
@@ -214,7 +216,10 @@
   background: linear-gradient(226deg, #fede17 0%, #d5930b 100%);
   justify-content: center;
 }
-.box .format-lerns__content-cards-item-next a {
+.box
+  .format-lerns__content-cards-item-option
+  .format-lerns__content-cards-item-next
+  a {
   font-weight: 900;
   font-size: 30px;
   line-height: 120%;
@@ -223,10 +228,16 @@
 .box input[type="checkbox"] {
   display: none;
 }
-.box input[type="checkbox"]:checked ~ .dropdown {
+.box
+  input[type="checkbox"]:checked
+  ~ .format-lerns__content-cards-item-option
+  .dropdown {
   max-height: 300px;
   display: flex;
 }
-.box input[type="checkbox"]:checked ~ label {
+.box
+  input[type="checkbox"]:checked
+  ~ .format-lerns__content-cards-item-option
+  label {
   margin-bottom: 0;
 }

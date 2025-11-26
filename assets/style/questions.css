@@ -6,6 +6,7 @@
   min-width: 917px;
   padding-bottom: 107px;
   padding-top: 114px;
+  position: relative;
 }
 .questions__content h2 {
   font-weight: 700;
@@ -119,4 +120,9 @@
 }
 .questions__content-right-bottom-right button:hover:before {
   opacity: 1;
+}
+.questions__content-eclipse1,
+.questions__content-eclipse2,
+.questions__content-eclipse3 {
+  display: none;
 }
